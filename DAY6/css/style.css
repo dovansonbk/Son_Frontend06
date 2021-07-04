@@ -1,0 +1,17 @@
+p{
+	color: BLUE;
+}
+h3{
+	font-size: 20;
+	color: green !important;
+}
+
+
+/**/
+p:first-child span {
+	color: red;
+}
+
+p:last-child span{
+	color: blue;
+}
