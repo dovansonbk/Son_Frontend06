@@ -3,9 +3,107 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=, initial-scale=1.0">
-	<title>Document</title>
+	<title>Bài 4</title>
 </head>
 <body>
-	
+	<h1 align="center">Pete's Pizza Delivery</h1>
+	<h2 align="center">Online Order Form</h2>
+	<p align="center">*required fileds</p>
+	<table align="center" width="550">
+		<tr>
+			<td>
+				<form>
+					<fieldset>
+						<legend>Customer details</legend>
+						<table>
+							<tr>
+								<td>*Name:</td>
+								<td><input type="text" name="name" size="50"></td>
+							</tr>
+							<tr>
+								<td>*Address:</td>
+								<td><input type="text" name="name" size="50"></td>
+							</tr>
+							<tr>
+								<td>*Town/city:</td>
+								<td><input type="text" name="name" size="30"></td>
+							</tr>
+							<tr>
+								<td>*Postcode:</td>
+								<td><input type="text" name="name"></td>
+							</tr>
+							<tr>
+								<td>*Tell:</td>
+								<td><input type="text" name="name"></td>
+							</tr>
+							<tr>
+								<td>*Email:</td>
+								<td><input type="text" name="name" size="50"></td>
+							</tr>
+						</table>
+						<br/>
+					</fieldset>
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<!-- 3 bảng tiếp theo -->
+	<table align="center" width="550">
+		<tr>
+			<!-- Bảng 2.1 -->
+			<td valign="top">
+				<form>
+					<fieldset>
+						<legend>Topping*</legend>
+						<input type="radio" name="Topping">Margherita<br/>
+						<input type="radio" name="Topping">Four Seasons<br/>
+						<input type="radio" name="Topping">Meat Feast<br/>
+						<br/>
+					</fieldset>
+				</form>
+			</td>
+			<!-- Bảng 2.2 -->
+			<td valign="top">
+				<form>
+					<fieldset>
+						<legend>Size*</legend>
+						<input type="radio" name="Size">Small<br/>
+						<input type="radio" name="Size">Medium<br/>
+						<input type="radio" name="Size">Large<br/>
+						<br/>
+					</fieldset>
+				</form>
+			</td>
+			<!-- Bảng 2.3 -->
+			<td valign="top">
+				<form>
+					<fieldset>
+						<legend>Extras</legend>
+						<input type="checkbox" name="Topping">Mushrooms<br/>
+						<input type="checkbox" name="Topping">Green peppers<br/>
+						<input type="checkbox" name="Topping">Anchovies<br/>
+						<input type="checkbox" name="Topping">Extra cheese<br/>
+					</fieldset>
+				</form>
+			</td>
+		</tr>
+	</table>
+	<!-- Bảng cuối -->
+	<table align="center" width="550">
+		<tr>
+			<td>
+				<form>
+					<fieldset>
+						<legend>Delivery</legend>
+						Preferred delivery time:<input type="time" name=""><br/>
+						Delivery instructions:<br/>
+						<textarea rows="5" cols="65"></textarea>
+					</fieldset>
+				</form>
+			</td>
+		</tr>
+	</table>
+
 </body>
 </html>
